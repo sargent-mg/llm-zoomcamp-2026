@@ -1,0 +1,11 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(uv sync *)",
+      "Bash(/workspaces/llm-zoomcamp-2026/01-agentic-rag/homework/.venv/bin/pip install *)",
+      "Bash(/workspaces/llm-zoomcamp-2026/01-agentic-rag/homework/.venv/bin/python -m pip install toyaikit)",
+      "Bash(uv pip *)",
+      "Bash(/workspaces/llm-zoomcamp-2026/01-agentic-rag/homework/.venv/bin/python -c \"import toyaikit; print\\('toyaikit ok'\\)\")"
+    ]
+  }
+}
